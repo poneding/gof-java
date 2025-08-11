@@ -1,6 +1,6 @@
 package factoryMethod;
 
-public class Main {
+public class Client {
     public static void main(String[] args) {
         ProductFactoryInterface factoryA = new ConcreteProductAFactory();
         ProductInterface productA = factoryA.createProduct("A");

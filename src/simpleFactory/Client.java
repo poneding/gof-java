@@ -1,6 +1,6 @@
 package simpleFactory;
 
-public class Main {
+public class Client {
     public static void main(String[] args) {
         ProductInterface productA = ProductFactory.createProduct("A");
         productA.use();
